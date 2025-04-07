@@ -3,7 +3,13 @@
 
 ## This web application was developed using React js and added backend but not deployed because this project requires only frontend so I developed only the friendly User interface.
 
+
+
+
 Preview at https://my-eshop-lovat.vercel.app/dashboard
+
+
+
 
 # 🛒 MY-Eshop
 
@@ -52,11 +58,11 @@ A web-based e-commerce management application that helps in managing shop users 
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: HTML, CSS, JavaScript
+- **Frontend**: JavaScript(inline HTML), CSS 
 - **Backend**: Node.js / Express.js
 - **Database**: MongoDB
 - **Authentication & Verification**: Twilio (OTP for phone number verification)
-- **Hosting**: (Add if hosted on platforms like Vercel, Render, etc.)
+- **Hosting**: (Add if hosted on platforms like Vercel.)
 
 ---
 
@@ -64,6 +70,7 @@ A web-based e-commerce management application that helps in managing shop users 
 
 - **Twilio Phone Verification** is limited to verified numbers due to pricing constraints as a student.
 - Currently no email OTP verification (could be added in future updates).
+- https://www.twilio.com if we login in this then mobile number will be verified then only the otp will send otherway is to buy premimum to send OTP to unverified numbers
 
 
 ---
@@ -72,8 +79,7 @@ A web-based e-commerce management application that helps in managing shop users 
 
 1. **Clone the repo**  
 ```bash
-git clone https://github.com/yourusername/MY-Eshop.git
-cd MY-Eshop```
-
-
-
+git clone https://github.com/narnenagapavan/MY-Eshop.git
+cd MY-Eshop
+npm install
+```
