@@ -1,0 +1,206 @@
+.manage-employees {
+  padding: 24px;
+  animation: fadeIn 0.3s ease-in;
+}
+
+.users-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.page-title {
+  font-weight: 600;
+  color: #1a237e;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  padding: 16px 24px;
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.search-field {
+  min-width: 300px;
+  background-color: white;
+}
+
+.refresh-button {
+  color: #2196f3;
+}
+
+.add-button {
+  background-color: #2e7d32 !important;
+  color: white !important;
+  text-transform: none !important;
+  padding: 8px 20px !important;
+}
+
+.users-table {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 12px !important;
+  overflow: hidden;
+}
+
+.table-row {
+  transition: background-color 0.2s ease;
+}
+
+.table-row:hover {
+  background-color: #f5f5f5;
+}
+
+.MuiTableHead-root .MuiTableCell-root {
+  background-color: #1a237e;
+  color: white;
+  font-weight: 600;
+}
+
+.action-cell {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.edit-button {
+  color: #1976d2 !important;
+}
+
+.delete-button {
+  color: #d32f2f !important;
+}
+
+.edit-dialog-paper {
+  background: linear-gradient(145deg, #ffffff, #f5f5f5) !important;
+  border-radius: 16px !important;
+  overflow: hidden !important;
+}
+
+.edit-dialog-title {
+  background: linear-gradient(90deg, #1a237e, #0d47a1);
+  color: white;
+  padding: 20px !important;
+}
+
+.edit-form {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.field-group {
+  background: rgba(0, 0, 0, 0.02);
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.field-label {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.salary-field {
+  position: relative;
+}
+
+.salary-field::before {
+  content: '₹';
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(0, 0, 0, 0.54);
+  z-index: 1;
+}
+
+.salary-input {
+  padding-left: 28px !important;
+}
+
+.save-button {
+  background: linear-gradient(45deg, #1a237e, #0d47a1) !important;
+  color: white !important;
+  padding: 8px 24px !important;
+}
+
+.cancel-button {
+  border: 1px solid rgba(0, 0, 0, 0.12) !important;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.edit-dialog-content {
+  animation: slideIn 0.3s ease-out;
+}
+
+.status-chip {
+  border-radius: 20px !important;
+  padding: 4px 12px !important;
+  font-weight: 500 !important;
+  text-transform: capitalize !important;
+}
+
+.status-chip.active {
+  background-color: #e8f5e9 !important;
+  color: #2e7d32 !important;
+}
+
+.status-chip.inactive {
+  background-color: #ffebee !important;
+  color: #d32f2f !important;
+}
+
+.status-chip.on-leave {
+  background-color: #fff3e0 !important;
+  color: #ef6c00 !important;
+}
+
+@media (max-width: 600px) {
+  .users-header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .search-field {
+    min-width: 100%;
+  }
+
+  .action-buttons {
+    flex-wrap: wrap;
+  }
+
+  .add-button {
+    width: 100%;
+  }
+}

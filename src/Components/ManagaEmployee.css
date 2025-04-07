@@ -1,0 +1,31 @@
+.manage-employees {
+  padding: 20px;
+  animation: fadeIn 0.3s ease-in;
+}
+
+.MuiTableContainer-root {
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.MuiTableRow-root:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+  transition: background-color 0.3s ease;
+}
+
+.MuiIconButton-root {
+  transition: transform 0.2s ease;
+}
+
+.MuiIconButton-root:hover {
+  transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
