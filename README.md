@@ -1,3 +1,10 @@
+
+## I'm name is Naga Pavan Narne and I'm a FULL STACK DEVELOPER 
+
+## This web application was developed using React js and added backend but not deployed because this project requires only frontend so I developed only the friendly User interface.
+
+Preview at https://my-eshop-lovat.vercel.app/dashboard
+
 # 🛒 MY-Eshop
 
 A web-based e-commerce management application that helps in managing shop users and their employees. This system uses **MongoDB** for backend storage and provides intuitive features like user registration, OTP verification, shop ID generation, employee management, and more.
@@ -58,7 +65,15 @@ A web-based e-commerce management application that helps in managing shop users 
 - **Twilio Phone Verification** is limited to verified numbers due to pricing constraints as a student.
 - Currently no email OTP verification (could be added in future updates).
 
+
 ---
 
-## 📂 Folder Structure
+## 💻 How to Run Locally
+
+1. **Clone the repo**  
+```bash
+git clone https://github.com/yourusername/MY-Eshop.git
+cd MY-Eshop```
+
+
 
